@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stage Style for Modern CSS Solutions</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <main class="main">
+      <img src="./images/header-bg.png" alt="Main Img" class="main-img" />
+      <h1 class="main-title">Style Stage</h1>
+      <h2 class="main-subtitle">
+        A modern CSS showcase styled by community contributions
+      </h2>
+      <p class="main-content">
+        Maintained by
+        <a href="" class="main-link"> Stephanie Eckles</a> of
+        <a href="" class="main-link"> ModernCSS.dev </a>
+      </p>
+      <h1 class="button main-button">
+        <img src="./images/star-icon.svg" alt="Star Icon" class="star-img" />
+        <span class="main-span">Star on Github</span>
+      </h1>
+      <br />
+    </main>
+    <nav class="navbar">
+      <ul class="nav-list">
+        <li class="nav-item">
+          <a href="" class="nav-link">About</a>
+        </li>
+        <li class="nav-item">
+          <a href="" class="nav-link">Guidelines</a>
+        </li>
+        <li class="nav-item">
+          <a href="" class="nav-link">Contribute</a>
+        </li>
+        <li class="nav-item">
+          <a href="" class="nav-link">Files</a>
+        </li>
+        <li class="nav-item">
+          <a href="" class="nav-link">All Styles</a>
+        </li>
+        <li class="nav-item">
+          <a href="" class="nav-link">Resources</a>
+        </li>
+      </ul>
+    </nav>
+    <section class="setting section">
+      <h1 class="title">Setting the Stage</h1>
+      <p class="content">
+        In 2003, <a href="" class="content-link">Dave Shea</a> began a legendary
+        project called <a href="" class="content-link">CSS Zen Garden</a> that
+        provided a demonstration of "what can be accomplished through CSS-based
+        design" until submissions stopped in 2013.
+      </p>
+      <br />
+      <p class="content">
+        <span class="setting-content-span">Style Stage</span>
+        seeks to rekindle that spirit by providing this page as the base HTML
+        for contributors - like you! - to re-style by submitting an alternate
+        stylesheet.
+      </p>
+      <br />
+      <h2 class="setting-subtitle">
+        <span class="setting-subtitle-span">How it works:</span> Visit the
+        <a href="" class="setting-subtitle-link">"All Styles"</a> directory page
+        and select a style to view. A page with identical content to this one
+        will be presented with a new design provided from a contributed
+        stylesheet. CSS practitioners of any skill level are invited to
+        <a href="" class="setting-subtitle-link">submit a stylesheet!</a>
+        <div class="setting-subtitle-div">
+          <img
+            src="./images/grid-icon.svg"
+            alt="Star Icon"
+            class="setting-div-img"
+          />
+          <span class="setting-div-span">Ooh, scale()!</span>
+        </div>
+      </h2>
+      <p class="content">
+        The HTML for this page was created to be semantic, accessible, and free
+        of nearly all other opinions. Nested sectioning elements with the class
+        `.container` serve as additional style aids since you do not have access
+        to alter the base HTML. IDs are included where needed for nav anchors or
+        accessibility, and a small number of additional classes are provided for
+        key elements without IDs. Don't forget the `.skip-link`!
+      </p>
+    </section>
+    <section class="modern section">
+      <h1 class="title">Modern CSS Under the Spotlight</h1>
+      <p class="content">
+        Modern CSS has increased and improved the available CSS properties and
+        layout behaviors, and browser support is nearly in sync for most
+        high-touch features.
+      </p>
+      <h2 class="modern-subtitle">Some examples of modern CSS include:</h2>
+      <div class="modern-content">
+        <span class="modern-span">Flexbox</span>
+        <span class="modern-span">Grid</span>
+        <span class="modern-span">custom variables</span>
+        <span class="modern-span">@supports()</span>
+        <span class="modern-span">gradients</span>
+        <span class="modern-span">animation</span>
+        <span class="modern-span">3D transforms</span>
+        <span class="modern-span">object-fit</span>
+        <span class="modern-span">:focus-within</span>
+        <span class="modern-span">calc()</span>
+        <span class="modern-span">min() / max() / clamp()</span>
+        <span class="modern-span">viewport units</span>
+        <span class="modern-span">scroll-(margin/padding/snap)</span>
+        <span class="modern-span">position: sticky</span>
+        <span class="modern-span">two-value display</span>
+        <span class="modern-span">expanded media query values</span>
+        <span class="modern-span">variable fonts</span>
+      </div>
+      <p class="content">
+        We also collectively have an improved understanding of what it takes to
+        make accessible experiences.
+      </p>
+      <br />
+      <p class="content modern-content-para">
+        <a href="" class="content-link">Join Style Stage as a contributor</a>
+        to refresh your CSS skills, and learn from others!
+      </p>
+    </section>
+    <section class="guidelines section">
+      <h1 class="title">Guidelines</h1>
+      <p class="guidelines-content">
+        Contributing a stylesheet to Style Stage means you agree to abide by
+        <a href="" class="content-link">our full guidelines.</a>
+      </p>
+      <div class="guidelines-container">
+        <span class="guidelines-span">TL;DR</span>
+        <p class="guidelines-subtitle">← Whoa, text gradients!</p>
+      </div>
+      <p class="content">
+        All submissions will be autoprefixed and prepended with the
+        <a href="" class="content-link">CC BY-NC-SA license</a> as well as
+        attribution using the metadata you provide. You may use any build setup
+        you prefer, but the final submission should be the compiled, unminified
+        CSS. You retain the copyright to original graphics and must ensure all
+        graphics used are appropriately licensed. All asset links, including
+        fonts, must be absolute to external resources. Stylesheets will be saved
+        into the Github repo, and detected changes that violate the guidelines
+        are cause for removal.
+      </p>
+      <br />
+      <p class="content">
+        Ensure your design is responsive, and that it passes accessible contrast
+        (we'll be using aXe to verify). Animations should be removed via
+        `prefers-reduced-motion`. Cutting-edge techniques should come with a
+        fallback if needed to not severely impact the user experience. No
+        content may be permanently hidden, and hidden items must come with an
+        accessible viewing technique. Page load time should not exceed 3
+        seconds.
+      </p>
+      <br />
+      <p class="content">
+        Most importantly - have fun and learn something new! Check out the
+        <a href="" class="content-link">resources</a> for tips and inspiration.
+      </p>
+      <br />
+      <button class="button">Review full guidelines</button>
+    </section>
+    <section class="contribute">
+      <div class="contribute-container section">
+        <h1 class="title">Contribute</h1>
+        <p class="contribute-content">
+          All who enjoy the craft of writing CSS are welcome to contribute!
+        </p>
+        <br />
+        <p class="content para">
+          By participating as a contributor, your work will be shared with your
+          provided attribution as long as Style Stage is online, your stylesheet
+          link and any asset links remain valid, and all
+          <a href="" class="content-link">contributor guidelines</a> are adhered
+          to.
+        </p>
+        <h1 class="contribute-subtitle">Steps to Contribute</h1>
+        <ol class="contribute-list">
+          <li class="contribute-item">
+            Download the source files listed below to use as a reference to
+            build your stylesheet, or start from the
+            <a href="" class="contribute-link">Sass template</a>.
+          </li>
+          <li class="contribute-item">
+            Host your completed stylesheet at a public URL, and ensure all asset
+            links are absolute URLs to external resources.
+          </li>
+          <li class="contribute-item">
+            <a href="" class="contribute-link">Create a pull request</a>
+            to add your information as a unique .json file to: src/_data/styles.
+            The schema is detailed in the repo README, and you can review the
+            FAQ on
+            <a href="" class="contribute-link">creating a pull request</a>.
+          </li>
+          <li class="contribute-item">
+            If your contribution abides by the previously listed guidelines,
+            your submission will be added!
+          </li>
+        </ol>
+      </div>
+      <div class="download">
+        <div class="download-button-group">
+          <button class="button download-button">Download CSS</button>
+          <button class="button download-button">Download HTML</button>
+        </div>
+        <p class="download-subtitle">
+          Jump right in
+          <img
+            src="./images/down-arrow.svg"
+            alt="Down Arrow Icon"
+            class="download-img"
+          />
+        </p>
+        <p class="download-title">Fork the CodePen</p>
+      </div>
+    </section>
+    <section class="currently">
+      <h1 class="currently-title">Currently Staged Style</h1>
+      <p class="currently-content">
+        <span class="currently-content-span">Title: </span>
+        Main Stage
+      </p>
+      <p class="currently-content">
+        <span class="currently-content-span">Author: </span>
+        Stephanie Eckles
+      </p>
+      <p class="currently-content">
+        <span class="currently-content-span">Twitter: </span>
+        5t3ph
+      </p>
+      <p class="currently-content">
+        <span class="currently-content-span">Website: </span>
+        ModernCSS.dev
+      </p>
+      <button class="currently-button">View Stylesheet</button>
+    </section>
+    <section class="desktop-currently">
+      <h1 class="desktop-currently-title">Currently Staged Style</h1>
+      <p class="desktop-currently-content">
+        <span class="desktop-currently-content-span">Title: </span>
+        Main Stage
+      </p>
+      <p class="desktop-currently-content">
+        <span class="desktop-currently-content-span">Author: </span>
+        Stephanie Eckles
+      </p>
+      <p class="desktop-currently-content">
+        <span class="desktop-currently-content-span">Twitter: </span>
+        <a href="" class="desktop-link">5t3ph</a>
+      </p>
+      <p class="desktop-currently-content">
+        <span class="desktop-currently-content-span">Website: </span>
+        <a href="" class="desktop-link">ModernCSS.dev</a>
+      </p>
+      <button class="desktop-currently-button">View Stylesheet</button>
+    </section>
+    <section class="featured">
+      <h1 class="featured-title">Featured Styles</h1>
+      <article class="featured-article">
+        <div class="featured-container">
+          <div class="featured-item">
+            <p class="featured-content">Moccasin Stage</p>
+            <p class="featured-name">by Gabriel Paixao</p>
+          </div>
+        </div>
+        <div class="featured-container">
+          <div class="featured-item">
+            <p class="featured-content">Color Stages</p>
+            <p class="featured-name">by Claire Lipskey</p>
+          </div>
+        </div>
+        <div class="featured-container">
+          <div class="featured-item">
+            <p class="featured-content">Artsy Blue and Turquoise</p>
+            <p class="featured-name">by Thea Kitzinger</p>
+          </div>
+        </div>
+      </article>
+      <div class="featured-div">
+        <img
+          src="./images/grid-icon.svg"
+          alt="Star Icon"
+          class="setting-div-img"
+        />
+        <span class="featured-div-span">Grid FTW!</span>
+      </div>
+      <button class="button featured-button">View All Styles</button>
+    </section>
+    <section class="created">
+      <button class="created-button">S</button>
+      <p class="created-content">
+        Created and maintained by
+        <a href="" class="created-link">Stephanie Eckles (@5t3ph)</a>
+      </p>
+      <article class="created-article">
+        <button class="created-article-button">Contact on Twitter</button>
+        <button class="created-article-button">Star on Github</button>
+        <button class="created-article-button">RSS Feed</button>
+        <button class="created-article-button">Subscribe to Updates</button>
+      </article>
+      <p class="created-title">
+        Crafted with semantic, accessible HTML and CSS,
+        <span href="" class="created-span">Style Stage</span> is generated with
+        <a href="" class="created-link">11ty</a> and hosted on
+        <a href="" class="created-link">Netlify</a>. This project uses
+        <a href="" class="created-link">PostCSS</a> with
+        <a href="" class="created-link">autoprefixer</a>.
+      </p>
+      <br />
+      <p class="created-title">
+        Contributors retain copyright of all graphics used, and styles are
+        available under <a href="" class="created-link">CC BY- NC-SA</a>
+      </p>
+    </section>
+    <section class="support">
+      <p class="support-content">
+        <span href="" class="support-span">Support Style Stage</span> as a
+        monthly or weekly sponsor and qualify for a branded Style Stage page
+        with links on every page.
+      </p>
+      <button class="support-button">View Sponsor Options</button>
+    </section>
+  </body>
+</html>
